@@ -1,4 +1,4 @@
-require('dotenv').config()
+// require('dotenv').config()
 // Body-parser parses is an HTTP request body
 const bodyParser = require('body-parser');
 const cors = require('cors');
