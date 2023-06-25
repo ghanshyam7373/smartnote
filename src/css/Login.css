@@ -1,0 +1,77 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: rgb(32, 32, 32);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+  }
+  
+  #heading {
+    text-align: center;
+    margin: 2em;
+    color: #c7aa53;
+    font-size: 1.2em;
+  }
+  
+  .field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  }
+  
+  .input-icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #c7aa53;
+  }
+  
+  .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+  }
+  
+  .form .btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 2.5rem 0;
+    width: 100%;
+  }
+  
+  .card-form {
+    background-image: linear-gradient(163deg, #c7aa53 0%, #ffc107 100%);
+    border-radius: 22px;
+    transition: all .3s;
+    width: 100%;
+    margin: auto;
+    margin-top: 7%;
+  }
+  
+  .card2-form {
+    border-radius: 0;
+    transition: all .2s;
+  }
+  
+  .card2-form:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+  }
+  
+  .card-form:hover {
+    box-shadow: 0px 0px 30px 1px #c7aa53;
+  }
